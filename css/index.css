@@ -1,0 +1,326 @@
+*{
+	margin: 0;
+	padding: 0;
+
+
+}
+
+body{
+	width: 100%;
+	height: 100vh;
+	background-color: #ffffff;
+	display: flex;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+
+.wrapper{
+	display: flex;
+	align-content: center;
+	justify-content: start;
+	width: 60%;
+	height: 80vh;
+	
+
+	
+
+}
+
+.instalogin{
+	border: 1px solid #d3d3d3;
+	margin-top: 4em;
+}
+
+.phone{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	width: 50%;
+
+	
+}
+
+.phone img{
+	height: 50rem;
+}
+
+
+.logoraiz img{
+	height: 50%;
+	width: 50%;
+	justify-content: center;
+	align-content: center;
+	margin-left: 5.5rem;
+	padding-top: 4rem;
+
+	
+}
+
+#logo{
+	justify-content: center;
+	align-content: center;
+
+}
+.group{
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	flex-direction: column;
+	width: 100%;
+	padding: 1.3rem 0;
+
+
+
+	
+}
+
+
+.group:nth-child(1){
+	min-height: 20rem;
+}
+
+input{
+	width: 20rem;
+	height: 3rem;
+	min-height: 10px;
+	min-width: 20px;
+	margin-left: 2.5rem;
+	margin-bottom: 2.5rem;
+	flex-direction: column;
+}
+
+
+#alinhar{
+	margin-bottom: 1rem;
+}
+
+.campo1{
+	padding-right: 2.2rem;
+
+}
+
+
+.campo2{
+
+margin-top: -2rem;
+
+}
+
+.entrar{
+	width: 20rem;
+	height: 2rem;
+	border: 1px solid skyblue;
+	background-color: skyblue;
+	align-content: center;
+	justify-content: center;
+	margin-left: 2.5rem;
+	margin-top: -2.1rem;		
+
+}
+
+.entrar a{	
+	text-decoration: none;
+	margin-top: 0.2em;
+	margin-left: 6.5em;
+	font-size: 20px;
+	position: absolute;
+	color: white;
+
+
+
+	
+}
+
+.entrar a:hover{
+	color: blue;
+}
+
+.ou{
+	/*text-align: center;*/
+	font-size: 15px;
+	color: #808080;
+	background-color: #ffffff;
+	display: inline-block;
+	justify-content: center;
+	margin-left: 12rem;
+
+
+
+}
+
+.ou p:after,.ou p:before{
+	content: ' ';
+	position: absolute;
+	top: 0.65em;
+	width: 1em;
+	height: 0.05em;
+	background-color: #808080;
+	
+}
+
+.linha{
+	color: #808080;
+	margin-left: 7.2rem;
+	margin-top: -1.5em;
+
+}
+
+.linha2{
+	color: #808080;
+	margin-left: 13.6rem;
+	margin-top: -1.1em;	
+}
+
+.facebook button{
+	width: 24em;
+	height: 2em;
+	margin-left: 3em;
+	margin-top: 1em;
+	background-color: #ffffff;
+	border:  0px hidden #ffffff;
+	color: blue;
+
+
+}
+
+/*.facebook{
+	background-image: url('../img/facebook.png');
+	background-size: 15px;
+	background-repeat: no-repeat;
+	margin-left: 3em;
+
+}*/
+
+.facebook img{
+	background-repeat: no-repeat;
+	height: 18px;
+	
+}
+
+.senharecover {
+	margin-top: 1.5em;
+	margin-left: 12.5em;
+	font-size: 13px;			
+}
+
+#newaccount{
+	border: 1px solid #d3d3d3;
+	margin-top: 2em;
+	height: 5em;
+
+}
+
+#newaccount p{
+	margin-left: 6em;
+	margin-top: 2em;
+}
+
+#newaccount a{
+	color: skyblue;
+	margin-left: 5px;
+}
+
+#newaccount a:hover{
+	color: blue;
+}
+
+.store{
+	width: 100%;
+	height: 7em;
+	margin-top: 1em;
+
+
+	
+}
+
+.store p{
+	margin-top: 1em;
+	margin-left: 8em;
+}
+
+.store img{
+	width: 8em;
+	margin-top: 1em;
+	margin-left: 50px;
+	flex-direction: row;
+	-webkit-box-pack: center;
+	vertical-align: baseline;
+
+	
+}
+
+#astore{
+	margin-left: 9.3em;
+	margin-top: -3.6em;
+}
+
+#gstore{
+	margin-left: 1em;
+}
+
+footer{
+	display: flex;
+	width: 100%;
+	position: absolute;
+	margin-top: 50em;
+	color:  #808080;
+}
+	
+.rodape ul{
+	margin-left: 8em;
+	height: 5em;
+
+	
+}
+
+.rodape ul li{
+	display: inline-block;
+	margin-left: 2em;
+
+}
+
+.rodape a{
+	color: #808080;
+}
+
+.rodape a:hover{
+	color: blue;
+}
+
+
+.rodapefinal{
+	margin-top: -2em;
+	margin-left: 30em;
+}
+
+@media(max-width: 1024px){
+	.wrapper{
+		width: 90%;
+	}
+
+}
+
+@media(max-width: 650px){
+	.phone{
+		display: none;
+	}
+
+	.wrapper{
+		width: 90%;
+	}
+
+	footer{
+		display: none;
+	}
+
+
+}
+
+--
